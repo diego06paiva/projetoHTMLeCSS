@@ -1,0 +1,149 @@
+body{
+    background-color: DarkSlateGrey;
+    display: inline;
+    /*display: inline - serve para manter em linha;*/
+    display: flexbox;
+    position: relative;
+    top: -20px;
+}
+.cabecalho{
+    background-image: url(FotoFundoCurso.jpg);
+    background-size: cover;
+    /*background-size: cover - Serve para deixar a imagem alinhada de forma correta*/
+    background-position: center;
+    background-position: right center;
+    height: 600px;
+    padding-top: 1px;
+    border-top: 10px;
+}
+.texto{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding-top: 100px;
+    color: white;
+    text-shadow: 2px 2px 2px blue;
+    font-size: 60px;
+}
+.ttexto{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 30px;
+    color: white;
+    text-shadow: 2px 2px 2px blue;
+    text-decoration:underline solid black;
+}
+.cabecalho nav ul{
+    margin: 20px 50px 0 0; 
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+}
+.cabecalho nav li{
+    /*Foi selecionado a class e depois foi selecionado as outras tags até chegar onde eu queria*/
+    display: inline-block;
+    font-family: 'Courier New', Courier, monospace;
+    list-style: none;
+    border: 3px solid blue;
+    font-size: 22px;
+    background-color:rgba(0, 0, 0, 0.9);
+    margin-left: 20px;
+}
+.cabecalho nav a{
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 16px;
+    display: block;
+}
+.cabecalho nav a:visited{
+    color: red;
+    list-style: none;
+    text-decoration: none;
+}
+.cabecalho nav a:hover{
+    color: blue;
+    list-style: none;
+    text-decoration: none;
+}
+.front{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    margin: auto;
+    display: inline-block;
+}
+.back{
+    width: 100%;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    display: inline-block;
+}
+.mobile{
+    width: 100%;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    display: inline-block;
+}
+.full{
+    width: 100%;
+    margin: auto;
+    color: white;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+.textofront{
+    color: black;
+    font-size: 20px;
+    font-family: OCR A Std, monospace;
+}
+.textoback{
+    color: black;
+    font-size: 20px;
+    font-family: OCR A Std, monospace;
+}
+.textomobile{
+    color: black;
+    font-size: 20px;
+    font-family: OCR A Std, monospace;
+}
+.textofull{
+    color: black;
+    font-size: 20px;
+    font-family: OCR A std, monospace;
+}
+section{
+    padding-top: 15px;
+}
+article{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 15px;
+    border: 3px solid black;
+    background-color: DimGrey;
+}
+.saiba a{
+    background-color: lavender;
+    color: white;
+    display: inline-block;
+    text-decoration: underline;
+    padding: 12px;
+    margin-left: 12px;
+    border-radius: 10px;
+}
+.saiba a:visited{
+    color: red;
+}
+.saiba a:hover{
+    color: blue;
+}
+.rodape{
+    display: inline-block;
+    color: #ccc;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+    letter-spacing: 2px;
+    position: relative;
+    bottom: -20px;
+}
